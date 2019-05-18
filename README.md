@@ -14,8 +14,9 @@ Arguments    |  Description
 -phylip | creates PHYLIP alignment file
 -fasta | creates FASTA alignment file
 <br> 
- <br> 
- <br> 
+<br> 
+<br> 
+ 
 Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); 
  
