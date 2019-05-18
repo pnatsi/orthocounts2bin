@@ -25,10 +25,10 @@ python orthocounts2bin.py -i Orthogroups.GeneCounts.tsv -o ./counts_dir/ -tsv -f
 <br>
 Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); <br>
- <br>
+<br>
 Where<br>
  Telford Lab, UCL;<br>
  ITN IGNITE; 
-  <br>
+<br>
 When<br> 
  May 2019; 
