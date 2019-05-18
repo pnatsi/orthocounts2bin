@@ -3,8 +3,8 @@ A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary
 <br> 
 <br> 
 <br> 
-
-Arguments    |  Description             
+## Input arguments
+Argument    |  Description             
 :-------------:|:-----------------------
 -i filename | file w/ gene counts (from OrthoFinder output)
 -o filename | directory to write the output file(s)
