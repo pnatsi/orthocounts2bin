@@ -2,8 +2,8 @@
 A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment.
 
 
-Arguments
-  -i filename     file w/ gene counts (from OrthoFinder output)
+Arguments <b>
+  `-i filename`     file w/ gene counts (from OrthoFinder output)
   -o filename     directory to write the output file(s)
   -incl filename  file w/ species. Analyze these species only
   -excl filename  file w/ species. Remove these species from analysis
