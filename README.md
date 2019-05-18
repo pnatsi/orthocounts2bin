@@ -1,9 +1,8 @@
 # orthocounts2bin
 A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment. This aligment can be used to construct phylogenies based on gene content.
 <br> 
-<br> 
-<br> 
-## Input arguments
+<br>  
+## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
 -i filename | file w/ gene counts (from OrthoFinder output)
@@ -13,8 +12,7 @@ Argument    |  Description
 -tsv | creates tsv file
 -phylip | creates PHYLIP alignment file
 -fasta | creates FASTA alignment file
-<br> 
-<br>  
+<br>   
  
 ## Example usage
 
