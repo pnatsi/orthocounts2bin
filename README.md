@@ -3,7 +3,7 @@ A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary
 
 
 Arguments <br>
-  `-i filename`     file w/ gene counts (from OrthoFinder output)<br>
+  `-i filename     file w/ gene counts (from OrthoFinder output)`<br>
   `-o filename`     directory to write the output file(s)<br>
   `-incl filename`  file w/ species. Analyze these species only<br>
   `-excl filename`  file w/ species. Remove these species from analysis<br>
