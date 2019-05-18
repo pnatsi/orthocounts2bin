@@ -14,9 +14,16 @@ Arguments    |  Description
 -phylip | creates PHYLIP alignment file
 -fasta | creates FASTA alignment file
 <br> 
-<br> 
-<br> 
+<br>  
  
+## Example usage
+
+```
+python counts2bin.py -i Orthogroups.GeneCounts.tsv -o ./counts_dir/ -tsv -fasta
+```
+ 
+<br>
+<br>
 Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); 
  
