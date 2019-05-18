@@ -20,8 +20,8 @@ Arguments    |  Description
 Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); 
  
-Where<br>  
- Telford Lab, UCL;
+Where<br>
+ Telford Lab, UCL;<br>
  ITN IGNITE; 
   
 When<br> 
