@@ -1,5 +1,5 @@
 # counts2bin
-A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment.
+A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment. This aligment can be used to construct phylogenies based on gene content.
 <br> 
 <br> 
 <br> 
