@@ -1,5 +1,5 @@
 import argparse
-from orthogroups_to_binary import o2bin
+from utils import o2bin
 
 
 #HERE STARTS THE ARGUMENT DEFINING
