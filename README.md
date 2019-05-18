@@ -1,6 +1,8 @@
 # counts2bin
 A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment.
-
+<br> 
+<br> 
+<br> 
 
 Arguments    |  Description             
 :-------------:|:-----------------------
@@ -11,13 +13,15 @@ Arguments    |  Description
 -tsv | creates tsv file
 -phylip | creates PHYLIP alignment file
 -fasta | creates FASTA alignment file
-
-Who 
+<br> 
+ <br> 
+ <br> 
+Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); 
  
-Where 
+Where<br>  
  Telford Lab, UCL;
  ITN IGNITE; 
   
-When
+When<br> 
  May 2019; 
