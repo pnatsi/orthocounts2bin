@@ -1,4 +1,4 @@
-# counts2bin
+# orthocounts2bin
 A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment. This aligment can be used to construct phylogenies based on gene content.
 <br> 
 <br> 
@@ -19,7 +19,7 @@ Arguments    |  Description
 ## Example usage
 
 ```
-python counts2bin.py -i Orthogroups.GeneCounts.tsv -o ./counts_dir/ -tsv -fasta
+python orthocounts2bin.py -i Orthogroups.GeneCounts.tsv -o ./counts_dir/ -tsv -fasta
 ```
  
 <br>
