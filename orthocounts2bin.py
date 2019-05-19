@@ -4,7 +4,7 @@ from utils import o2bin
 
 #HERE STARTS THE ARGUMENT DEFINING
 usage = "A program to convert Orthogroups.GeneCount.tsv to gene presence/absence aligment"
-toolname = "counts2bin"
+toolname = "orthocounts2bin"
 footer = "Who \n Paschalis Natsidis (p.natsidis@ucl.ac.uk); \n \nWhere \n Telford Lab, UCL;\n\
  ITN IGNITE; \n  \nWhen\n May 2019; \n\n"
 
