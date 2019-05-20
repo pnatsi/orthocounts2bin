@@ -85,7 +85,7 @@ if args.tsv == True:
         for count in orthoroup[1:]:
             output_tsv.write(str(count) + "\t")
         output_tsv.write("\n")
-    print("tsv file made ✓ ")
+    print("tsv file made!")
 
 
 #CREATE PHYLIP FILE
@@ -122,7 +122,7 @@ if args.phylip == True:
             for group in orthogroups_binary:
                 output_phy.write(str(group[i+1]))
             output_phy.write("\n") 
-    print("PHYLIP file made ✓ ")
+    print("PHYLIP file made!")
 
 #CREATE FASTA FILE
 if args.fasta == True:
@@ -150,4 +150,4 @@ if args.fasta == True:
             for group in orthogroups_binary:
                 output_fasta.write(str(group[i+1]))
             output_fasta.write("\n")
-    print("FASTA file made ✓ ")
+    print("FASTA file made!")
