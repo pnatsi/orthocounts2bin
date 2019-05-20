@@ -82,7 +82,7 @@ if args.tsv == True:
     output_tsv.write("\n")
     #CREATE ROWS WITH 0'S AND 1'S FROM ORTHOGROUPS
     for orthoroup in orthogroups_binary:
-        for count in orthoroup[1:]:
+        for count in orthoroup:
             output_tsv.write(str(count) + "\t")
         output_tsv.write("\n")
     print("tsv file made!")
