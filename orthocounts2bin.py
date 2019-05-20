@@ -16,9 +16,9 @@ parser.add_argument('-o', metavar = 'filename', dest = 'output', required = True
 
 group1 = parser.add_mutually_exclusive_group()
 group1.add_argument('-incl', metavar = 'filename', dest = 'include',
-                    help = 'file w/ species. Analyze these species only')
+                    help = 'file w/ species. Analyze these species only (optional)')
 group1.add_argument('-excl',  metavar = 'filename', dest = 'exclude',
-                    help = 'file w/ species. Remove these species from analysis')
+                    help = 'file w/ species. Remove these species from analysis (optional)')
 
 parser.add_argument('-tsv', action = 'store_true', dest = 'tsv',
                     help = 'creates tsv file')
