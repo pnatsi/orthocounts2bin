@@ -74,7 +74,7 @@ orthogroups_binary = o2bin(orthogroups)
 #CREATE TSV FILE
 if args.tsv == True:
     print("Creating .tsv file...")
-    tsv_filename = output_dir + "test.tsv"
+    tsv_filename = output_dir + "gene_presence_absence.tsv"
     output_tsv = open(tsv_filename, "w")
     #CREATE HEADER
     for entry in species:
@@ -91,7 +91,7 @@ if args.tsv == True:
 #CREATE PHYLIP FILE
 if args.phylip == True:
     print("Creating PHYLIP file...")
-    phy_filename = output_dir + "test.phy"
+    phy_filename = output_dir + "gene_presence_absence.phy"
     output_phy = open(phy_filename, "w")
     #CREATE HEADER
     if args.exclude == True:
@@ -127,7 +127,7 @@ if args.phylip == True:
 #CREATE FASTA FILE
 if args.fasta == True:
     print("Creating FASTA file...")
-    fasta_filename = output_dir + "test.fasta"
+    fasta_filename = output_dir + "gene_presence_absence.fasta"
     output_fasta = open(fasta_filename, "w")
     #CREATE THE BINARY ALIGNMENT
     if args.exclude == True:
