@@ -102,14 +102,14 @@ if args.phylip == True:
         species_number = len(species)
     output_phy.write(str(species_number) + " " + str(len(orthogroups_binary)) + "\n")
     #CREATE THE BINARY ALIGNMENT
-    if args.exclude == True:
+    if args.exclude != False:
         for i in range(len(species)):
             if species[i] not in species_excluded:
                 output_phy.write(species[i] + "\t")
                 for group in orthogroups_binary:
                     output_phy.write(str(group[i+1]))
                 output_phy.write("\n") 
-    elif args.include == True:
+    elif args.include != False:
         for i in range(len(species)):
             if species[i] in species_included:
                 output_phy.write(species[i] + "\t")
@@ -130,14 +130,14 @@ if args.fasta == True:
     fasta_filename = output_dir + "gene_presence_absence.fasta"
     output_fasta = open(fasta_filename, "w")
     #CREATE THE BINARY ALIGNMENT
-    if args.exclude == True:
+    if args.exclude != False:
         for i in range(len(species)):
             if species[i] not in species_excluded:
                 output_fasta.write(">" + species[i] + "\n")
                 for group in orthogroups_binary:
                     output_fasta.write(str(group[i+1]))
                 output_fasta.write("\n")
-    elif args.include == True:
+    elif args.include != False:
         for i in range(len(species)):
             if species[i] in species_included:
                 output_fasta.write(">" + species[i] + "\n")
