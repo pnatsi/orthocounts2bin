@@ -17,8 +17,10 @@ Argument    |  Description
 ## Example usage
 
 ```
-python orthocounts2bin.py -i Orthogroups.GeneCounts.tsv -o ./counts_dir/ -tsv -fasta
+python orthocounts2bin.py -i /Users/pnatsi/orthology/Orthogroups.GeneCounts.tsv -o /Users/pnatsi/orthology/ -tsv -fasta
 ```
+ 
+**Careful! Only full paths to the input files are currently supported**
  
 <br>
 Who<br> 
