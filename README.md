@@ -1,5 +1,6 @@
 # orthocounts2bin
-A script to get from Orthogroups.GeneCount.tsv to a gene presence/absence binary alignment. This aligment can be used to construct phylogenies based on gene content.
+A script that creates a binary gene presence/absence alignment from Orthogroups.GeneCounts.tsv <br>
+This aligment can be used to construct phylogenies based on gene content.
 <br> 
 <br>  
 ## Arguments
